@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<h1>Admin Dashboard</h1>
+<p>Welcome, Admin! You have full access to the system.</p>
+
+<ul>
+    <li><a th:href="@{/public-projects}">Public Projects</a></li>
+    <li><a th:href="@{/private-projects}">Private Projects</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,24 @@
+###조회
+GET localhost:8080/me?format=json
+Accept: application/json
+
+### 멤버 조회
+GET localhost:8080/me?f=xml
+Accept: application/xml
+
+### 멤버 생성
+POST localhost:8080/members
+Content-Type: application/json
+Accept-
+
+{
+  "id" : "abc",
+  "password": "abc",
+  "name" : "백종원",
+  "age" : 50,
+  "class" : "A",
+  "role" : "ADMIN"
+}
+
+### 로그인
+GET localhost:8080/
